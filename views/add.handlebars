@@ -25,30 +25,8 @@
 <body>
 	<div class="container">
 
-		<h1>My HCI Friends</h1>
-			<div id="friends">
-
-				{{#each friends}}
-					<img src="{{imageURL}}" class="img-responsive img-rounded" width="250px" height="250px">
-					<h3><a id="{{name}}"s>{{name}}</a></h3>
-					{{description}}
-			 		<hr>
-				{{/each}}
-			</div>
-
-
-		<form id="addFriendForm" role="form" method="get" action="/add">
-			<h3>Add a friend</h3>
-		    <div class="form-group">
-		      <label for="name">Name:</label>
-		      <input type="text" class="form-control" id="name" placeholder="Name" name="name">
-		    </div>
-		    <div class="form-group">
-		      <label for="description">Description:</label>
-		      <input type="text" class="form-control" id="description" placeholder="Description" name="description">
-		    </div>
-		    <input type="submit" id="submitBtn" class="btn btn-default" value="Add the friend"></input>
-		</form>
+		<h3>Friends has been add</h3>
+		<a href="/"> Go Back</a>
 	</div>
 </body>
 </html>
